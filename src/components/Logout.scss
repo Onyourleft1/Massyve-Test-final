@@ -1,0 +1,11 @@
+@import "../common.scss";
+
+#logout_container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+
+  button {
+    @include buttonDefault();
+  }
+}

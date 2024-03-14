@@ -1,0 +1,7 @@
+@import "../../common.scss";
+
+#card_p_container {
+  @include borderDefault();
+  padding: 1rem;
+  width: 80vw;
+}

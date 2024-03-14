@@ -1,0 +1,17 @@
+@mixin borderDefault {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+@mixin buttonDefault {
+  @include borderDefault();
+  padding: 0.25rem 1rem;
+  text-transform: uppercase;
+  background-color: transparent;
+
+  &:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+}

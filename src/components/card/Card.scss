@@ -1,0 +1,14 @@
+@import "../../common.scss";
+
+#card_container {
+  @include borderDefault();
+  width: fit-content;
+  padding: 1rem;
+
+  h3 {
+    p {
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
+}
